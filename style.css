@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&family=Raleway&display=swap');
+
+/* Purple SVG */
+/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5c6ac4" fill-opacity="1" d="M0,160L48,181.3C96,203,192,245,288,229.3C384,213,480,139,576,106.7C672,75,768,85,864,106.7C960,128,1056,160,1152,192C1248,224,1344,256,1392,272L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: whitesmoke;
+}
+
+h1 {
+  font-size: 2.75em;
+  color: #5c6ac4;
+}
+
+p {
+  font-size: 1.75em;
+  margin-bottom: 1.5em;
+  line-height: 1.5em;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  margin-top: 2em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75em;
+}
+
+nav div {
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-left: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.form-input {
+  width: 100%;
+}
+
+input {
+  height: 3em;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.btn {
+  height: 3em;
+  font-size: 1.25em;
+  background: #5c6ac4;
+  color: white;
+  padding: 1em 2em;
+  font-weight: 700;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+.img-container {
+  padding: 1em;
+}
+
+.sec-1 {
+  height: 90vh;
+  background: url('./wave-purple.svg');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.sec-2 {
+  background: #5c6ac4;
+  height: 10vh;
+}
